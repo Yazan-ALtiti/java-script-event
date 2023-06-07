@@ -66,8 +66,10 @@ function showMsg() {
     for (let i = 0; i < myStudents.length; i++) {
         //console.log(i)
         //  console.log(myStudents[i].id)
-        if (myStudents[i].id > 2000) {
+        if (myStudents[i].id < 2000) {
             console.log("goodjob" + " " + myStudents[i].name + " " + "you will be graduated")
+
+            console.log(myStudents[i].brothers[0])
 
         }
 
